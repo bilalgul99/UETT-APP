@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6{
+  color: blue;
+ 
+}
+i{
+  color: blue;
+  margin: 30px 5px 10px;
+}
+p{
+  color: darkgrey;
+}
+section{
+  padding: 10% 5%;
+}
+#top{
+  text-align: center;
+background-color:aliceblue;
+padding: 0;
+}
+#top img{
+width: 250px;
+transform: rotate(30deg);
+margin-bottom:-100px;
+}
+
+.row .container-fluid{
+  padding: 10% 5% 0;
+}
+#top .btn{
+  margin-top:10%;
+}
+#features{
+  padding: 20% 5%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#downloads{
+  background-color:aliceblue;
+  padding: 10% 15%;
+  text-align:left;
+}
+#downloads .container-fluid{
+  padding-bottom: 10%;
+}
+.downloadbtns{
+  position:absolute;
+  right: 10%;
+}
+.downloadbtns .btn{
+margin-right: 30px;
+margin-bottom: 30px;
+width: 300px;
+}
+#activities{
+  text-align: center;
+}
+.card{
+  margin-bottom: 50px;
+}
+.carousel-item{
+  background-color:aliceblue;
+  padding: 10% 5%;
+  text-align: center;
+}
+.carousel-item img{
+  padding-top: 5%;
+  border-radius: 100%;
+  width:300px;
+}
+.footer{
+  background-color: lightgray;
+text-align: center;
+padding-top: 30px;
+}
+@media (max-width:600px) {
+  #top img{
+    width: 200px;
+    transform: rotate(0deg);
+    margin-bottom:10px;
+    }
+    .downloadbtns{
+      position:static;
+      margin: 10% auto;
+      } 
+      p{
+        font-size: 1rem;;
+      }       
+}
+
+.privacy{
+  padding: 20%;
+  text-align: center;
+}
+.privacy ul{
+  text-align: left;
+}
